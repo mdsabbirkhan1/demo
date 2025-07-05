@@ -1,0 +1,39 @@
+{
+  "name": "toolfinder",
+  "version": "1.0.0",
+  "description": "A modern tool discovery platform with PWA capabilities",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "live-server . --port=8080 --open",
+    "build": "echo 'No build step required - static files only'",
+    "serve": "npx serve . -p 8000",
+    "test": "echo 'Open http://localhost:8000 to test the application'"
+  },
+  "keywords": [
+    "tools",
+    "productivity",
+    "pwa",
+    "javascript",
+    "cdn",
+    "finder",
+    "discovery"
+  ],
+  "author": "ToolFinder Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/toolfinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/toolfinder/issues"
+  },
+  "homepage": "https://toolfinder.app"
+}
