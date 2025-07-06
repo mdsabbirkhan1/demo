@@ -3,7 +3,7 @@
   "short_name": "ToolFinder",
   "description": "Discover the best tools for your projects. Curated collection of software, apps, and services to boost your productivity.",
   "version": "1.0.0",
-  "start_url": "/index.html",
+  "start_url": "https://mdsabbirkhan1.github.io/demo",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
