@@ -6,9 +6,9 @@ const DATA_CACHE_NAME = 'toolfinder-data-v1.0.0';
 const FILES_TO_CACHE = [
   './',
   './index.html',
-  './cdn/css/styles.css',
-  './cdn/js/app.js',
-  './cdn/js/tools-data.js',
+  '.https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/styles.css',
+  '."https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/app.js',
+  '.https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/tools-data.js',
   './cdn/js/pwa.js',
   './cdn/manifest.json',
   // External resources
