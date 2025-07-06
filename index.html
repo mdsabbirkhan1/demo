@@ -3,86 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>download Demo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #0b0b0b;
-        }
-        .header {
-            background-color: #fff;
-            color: #4e3edb;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: black;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .product-image {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .product-title {
-            font-size: 24px;
-            color: #fff;
-            margin-top: 10px;
-        }
-        .product-description {
-            margin-top: 15px;
-            font-size: 16px;
-            color: #5b9ebe;
-            line-height: 1.6;
-        }
-        .back-button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .back-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <meta name="description" content="Discover the best tools for your projects - A comprehensive tool finder platform">
+    <meta name="theme-color" content="#1e40af">
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="./cdn/manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/icon.png">
+    <link rel="apple-touch-icon" href="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/icon.png">
+    
+    <title>ToolFinder - Discover Amazing Tools</title>
+    
+    <!-- CDN CSS -->
+    <link rel="stylesheet" href="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/styles.css">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="header">
-        <h1>download Demo</h1>
+    <!-- App will be dynamically rendered here -->
+    <div id="app">
+        <div class="loading-screen">
+            <div class="loading-spinner"></div>
+            <p>Loading amazing tools...</p>
+        </div>
     </div>
-
-    <div class="container">
-        <img src="1.jpg" alt="Product Demo Image" class="product-image">
-        <h2 class="product-title">1 step</h2>
-        <p class="product-description">
-            First you copy the video link and then go to the download link
-        </p>
-        <a href="https://copyrightasset.blogspot.com" class="back-button">Go Back</a>
+    
+    <!-- PWA Install Banner -->
+    <div id="pwa-install-banner" class="pwa-banner hidden">
+        <div class="pwa-banner-content">
+            <div class="pwa-banner-icon">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="pwa-banner-text">
+                <h3>Install ToolFinder App</h3>
+                <p>Get quick access to all tools from your home screen</p>
+            </div>
+            
+            
+            
+            <div class="pwa-banner-actions">
+                <button id="pwa-install-btn" class="btn btn-primary">Install</button>
+                <button id="pwa-dismiss-btn" class="btn btn-secondary">Later</button>
+            </div>
+        </div>
     </div>
-<div class="container">
-        <img src="2.jpg" alt="Product Demo Image" class="product-image">
-        <h2 class="product-title">2 step</h2>
-        <p class="product-description">
-            Then paste the copied link
-        </p>
-        <a href="https://copyrightasset.blogspot.com" class="back-button">Go Back</a>
-    </div>
-    <div class="container">
-        <img src="3.jpg" alt="Product Demo Image" class="product-image">
-        <h2 class="product-title">3 step</h2>
-        <p class="product-description">
-Once pasted, press the download button, wait for a while and then download from the download button below
-        </p>
-        <a href="https://copyrightasset.blogspot.com" class="back-button">Go Back</a>
-    </div>
+    
+    <!-- CDN JavaScript -->
+    <script src="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/tools-data.js"></script>
+    <script src="./https://cdn.jsdelivr.net/gh/mdsabbirkhan1/S@main/app.js"></script>
+    <script src="./cdn/js/pwa.js"></script>
 </body>
 </html>
