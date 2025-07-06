@@ -2,7 +2,7 @@
   "name": "toolfinder",
   "version": "1.0.0",
   "description": "A modern tool discovery platform with PWA capabilities",
-  "main": "index.html",
+  "main": "https://mdsabbirkhan1.github.io/demo",
   "scripts": {
     "start": "python3 -m http.server 8000",
     "dev": "live-server . --port=8080 --open",
@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/yourusername/toolfinder/issues"
   },
-  "homepage": "https://toolfinder.app"
+  "homepage": "https://mdsabbirkhan1.github.io/demo"
 }
